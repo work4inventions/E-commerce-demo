@@ -1,0 +1,153 @@
+.details-res {
+  margin-top: 100px;
+
+  .restaurants-container-details {
+    .shopping-container {
+      height: 48px;
+      width: 48px;
+      border-radius: 10px;
+      background-color: #fb6d3a;
+      margin-right: 10px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      color: #fff;
+      position: absolute;
+      right: 0;
+      top: 15px;
+    }
+
+    .restaurants-container {
+      width: 100%;
+      justify-content: space-between;
+
+      .details-container {
+        width: 45%;
+
+        .burger-mania {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 40px;
+          color: #182135;
+        }
+
+        .details-restaurant {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #626264;
+          text-align: justify;
+        }
+      }
+
+      .sub-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+
+        .timer {
+          display: flex;
+          flex-direction: row;
+          color: #a3a3a4;
+          margin-top: 10px;
+
+          p {
+            color: #626264 !important;
+            margin-left: 10px;
+          }
+        }
+      }
+
+      .image-res {
+        width: 45%;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .menu-container {
+      margin-top: 40px;
+
+      .itemCategory {
+        padding: 8px 16px;
+        gap: 10px;
+        background-color: #503E9D;
+        border-radius: 8px;
+        flex-grow: 0;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+
+        p {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 24px;
+          text-align: center;
+          color: #F7FAFC;
+          margin: 0;
+        }
+      }
+
+      .itemCategory-other {
+        padding: 8px 16px;
+        gap: 10px;
+        background-color: #F7F7F7;
+        border-radius: 8px;
+        flex-grow: 0;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+
+        p {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px;
+          text-align: center;
+          color: #626264;
+          margin: 0;
+        }
+      }
+
+      h4 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #182135;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .menu-item {
+        width: 400px;
+
+        img {
+          width: 100%;
+          height: 200px;
+          border-radius: 16px;
+          margin: 0 !important;
+          gap: 10px;
+          object-fit: cover;
+        }
+
+        .item-name {
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+          color: #182135;
+        }
+
+        .item-price {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: #503e9d;
+        }
+      }
+    }
+  }
+}

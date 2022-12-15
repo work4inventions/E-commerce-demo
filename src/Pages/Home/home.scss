@@ -1,0 +1,165 @@
+@import "~bootstrap/scss/bootstrap";
+
+.nav-container {
+  justify-content: flex-end;
+  margin: 20px;
+
+  h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #182135;
+  }
+
+  .main-container {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    background-color: #fff;
+    z-index: 100;
+    width: calc(100% - 310px);
+    padding:10px 10px 0 0;
+    .logo {
+      height: 20px;
+      width: 24px;
+      cursor: pointer;
+    }
+
+    .Da-Otto {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0px;
+      margin-left: 10px;
+    }
+
+    .filter-container {
+      height: 48px;
+      width: 48px;
+      border-radius: 10px;
+      background-color: #503e9d;
+      margin-right: 10px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .shopping-container {
+      height: 48px;
+      width: 48px;
+      border-radius: 10px;
+      background-color: #fb6d3a;
+      margin-right: 10px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .down-up-arrow {
+      margin: 0 25px 0 10px;
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      height: 48px;
+      width: 400px;
+      border-radius: 10px;
+      background-color: #f7f7f7;
+      margin-right: 15px;
+
+      .search-input {
+        outline: none;
+        border: none;
+        width: 100%;
+        margin-left: 35px;
+        background-color: #f7f7f7;
+      }
+
+      .search-icon {
+        position: absolute;
+        margin-left: 10px;
+      }
+    }
+  }
+  .restaurants-container {
+    width: 33%;
+    text-decoration: none;
+
+    img {
+      height: 250px;
+      width: 100%;
+      border-radius: 16px;
+      margin: 0 !important;
+    }
+
+    .burger-mania {
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: #182135;
+    }
+
+    .status {
+      border-radius: 4px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      p {
+        margin: 0 !important;
+        padding: 0 !important;
+        font-weight: 600;
+        font-size: 11px;
+      }
+      &.open-now {
+        width: 73px;
+        height: 24px;
+        background-color: #eeecf6;
+        p {
+          color: #503e9d;
+        }
+      }
+      &.closed {
+        width: 52px;
+        height: 24px;
+        margin: 0 !important;
+        padding: 0 !important;
+        background: rgba(251, 109, 58, 0.1);
+        p {
+          color: #fb6d3a;
+        }
+      }
+    }
+    .details-restaurant {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #000000;
+      text-align: justify;
+    }
+  }
+  .category-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 100px;
+  }
+
+  .category {
+    margin-right: 48px;
+    cursor: pointer;
+
+    p {
+      font-size: 16px;
+      font-weight: 700;
+      margin-left: 15px;
+    }
+  }
+}
